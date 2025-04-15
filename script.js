@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const memberList = document.createElement("ul");
             memberList.id = "teamMembers";
 
-            const members = ["Tom", "Jerry", "Spike"];
+            const members = ["Hoàng", "Hoàn", "Hưng"];
             members.forEach(function (name) {
                 const li = document.createElement("li");
                 li.textContent = name;
